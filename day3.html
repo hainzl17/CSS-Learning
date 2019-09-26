@@ -3,30 +3,48 @@
     <meta charset = "utf-8">
       <title>Layout File</title>
       <style>
+      .container{
+        background: #696969;
+        color: white;
+        width: 1200px;
+        margin: auto;
+      }
+
+      #TopNav{
+        background: pink;
+        padding: 5px;
+      }
         #header{
           background: red;
         }
         #nav{
           background: blue;
+          padding: 5px;
         }
         #content{
           background: green;
           float: left;
+          padding: 5px;
         }
         #sidebar{
-          background: yellow;
+          //background: yellow;
           clear: left;
         }
         #footer{
-          background: orange;
+          background: black;
           clear: both;
+          padding: 5px;
         }
         </style>
     </head>
   <body>
-    <div id ="header"><img src = "images/BacktoSchool.png"></div>
-    <div id="nav">Navigation here</div>
+  <div class="container">
+    <div id = "TopNav">Home | Google | GameFAQs | YouTube</div>
+    <div id ="header"><img src = "images2/BacktoSchool.png"></div>
+    <div id="nav">Math | Calculator | W3Schools | Super Mario | Nintendo Switch Games</div>
     <div id="content">More Content</div>
     <div id="sidebar">Side Note</div>
     <div id="footer">Footer</div>
+  </div>
 </body>
+</html>
